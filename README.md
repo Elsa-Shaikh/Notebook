@@ -1,3 +1,22 @@
+# Notebook
+
+This is a full-stack notebook website where users can write notes. The features include adding, deleting, and updating notes. Users need to create an account with valid credentials, log in, and then can add notes. Another user cannot see the notes written by a different user. It operates like a personal notebook.
+This notebook has two backends, one built with the MERN stack and the other with the PERN stack. 
+In the MERN stack, i used Mongoose Schema, MongoDB, Express, Node.js, Express-validator, JSON Web Token, and bcrypt to create APIs.
+In the PERN stack, i used Prisma Schema, PostgreSQL, Express, Node.js, Express-validator, JSON Web Token, and bcrypt to create APIs.
+
+# By default, this website is running on PERN stack.
+
+If you want to run it with the MERN backend, there will be some changes on the frontend. In the code, where it's commented as 'For MongoDB,' you need to uncomment that line, and where it's commented as 'For Postgres,' you need to comment that line.
+
+# The file that needs to be changed on the frontend when using the MERN backend is:
+Folder context/notes/NoteState.js
+Folder components/Notes.js
+Folder components/NoteItem.js
+# The technologies used in building this are:
+Front-End : ReactJS React Redux
+Back-End  : MERN PERN
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
